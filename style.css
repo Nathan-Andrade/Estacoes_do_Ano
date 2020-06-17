@@ -1,0 +1,46 @@
+@media screen and (min-width: 1200px){
+  section{
+    margin-left: 250px;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 960px){
+  section{
+    margin-left: 100px;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 620px){
+  section{
+    margin-left: 20px;
+    align-items: center;
+  }
+}
+body{
+  background: steelblue;
+  font: normal 20pt Arial;
+}
+header > h1{
+  color: white;
+  text-align: center;
+}
+section{
+  background-color: antiquewhite;
+  color: rgb(0, 7, 5);
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 200px;
+  box-shadow: 3px 3px 10px black;
+}
+footer{
+  text-align: center;
+  font: italic;
+  color: aliceblue;
+  padding: 20px;
+}
+
